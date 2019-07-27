@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node .",
     "test": "mocha test/*.spec.js --exit",
-    "posttest": "npm run lint && npm audit"
+    "posttest": "npm audit"
   },
   "dependencies": {
     "compression": "^1.0.3",
